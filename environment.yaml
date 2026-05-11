@@ -1,0 +1,26 @@
+name: sec
+
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.13.1
+  - lightning=2.5.5
+  - pytorch-gpu=2.9.1
+  - torchvision=0.24.1
+  - torchaudio
+  - tqdm
+  - pandas
+  - scikit-learn
+  - scikit-image
+  - pillow
+  - wandb
+  - omegaconf
+  - sortedcontainers
+  - scikit-video
+  - configargparse
+  - imageio-ffmpeg
+  - pip
+  - pip:
+    - random-fourier-features-pytorch
+

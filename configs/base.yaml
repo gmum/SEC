@@ -1,0 +1,35 @@
+seed: 0
+accelerator: gpu
+wandb_project: "debugging"
+debug_id: null
+
+# one - train the baseline
+# all - grid search
+training_type: one
+
+epochs: 15000
+batch_size: 200000
+checkpoints_frequency: 0 # 0 / null - no checkpoints, positive int - save every N epochs
+
+optimizer:
+  learning_rate: 1e-4
+
+model:
+  type: !!null
+  hidden_features: 256
+  hidden_layers: 3
+  template_omega: null
+
+dataset:
+  name: ???
+  path: ???
+
+fast_dev_run: false
+
+checkpoints_path: "."
+results_path: "."
+
+logger:
+  group: !!null # wandb group
+  save_dir: "." # wandb save dir
+  val_check_interval: 1500
