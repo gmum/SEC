@@ -107,7 +107,7 @@ For our experiments, we used 100 images randomly selected from [LIU4K-v2 Dataset
 ## **Citation**
 
 ```
-@inproceedings{sec2026,  
+@misc{dadela2026sec,  
   title={Spectral Energy Centroid: a Metric for Improving Performance and Analyzing
 Spectral Bias in Implicit Neural Representations},  
   author={Tomasz Dądela and Adam Kania and Maciej Rut and Przemysław Spurek},  
